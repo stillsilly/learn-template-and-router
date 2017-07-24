@@ -6,8 +6,8 @@ Vue.use(VueRouter)
 
 
 //组件
-
-const Home = { template: '<div class="com-title">This is Home</div>' }
+//Home.vue没做按需加载，其他的做了
+import Home from  './component/Home.vue'
 import Article from './component/article/bundle'
 import Exhibition from './component/exhibition/bundle'
 import Industry from './component/industry/bundle'

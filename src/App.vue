@@ -89,7 +89,8 @@ html,body,div,p,ul,li{
   }
   .com-title{
     color: #42b983;
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing:2px;
     height: 30px;
     line-height: 30px;
     margin-top: 20px;
