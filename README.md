@@ -1,6 +1,6 @@
-# {{ name }}
+# 单文件组件-单页应用-demo
 
-> {{ description }}
+> 用.vue单文件组件和vue-router写的一个单页应用小demo
 
 ## Build Setup
 
