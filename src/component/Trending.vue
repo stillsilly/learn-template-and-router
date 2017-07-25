@@ -129,7 +129,6 @@
         vertical-align: top;
     }
     .add-input{
-        /*height: 25px;*/
         border: 1px solid #dcdcdc;
         border-radius: 3px;
         vertical-align: top;
