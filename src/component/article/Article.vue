@@ -8,13 +8,10 @@
     import Trending from '../Trending.vue';
     export default {
         name:'article',
-        created: function() {
-            let vm = this
-        },
         data: function() {
             return {
                 msg: '',
-                defaultData:['新版汽车销售管理办法','自动驾驶','轻量化','特斯拉']
+                defaultData:['汽车销售','自动驾驶','轻量化','特斯拉']
             }
         },
         methods:{

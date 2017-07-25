@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-
-    <!--<h2 @click="test()">首页</h2>-->
-    <!--<div>{{msg}}</div>-->
     <ul class="main-nav">
       <router-link to="/">首页</router-link>
       <router-link to="/article">文章</router-link>

@@ -15,4 +15,9 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 截图
+![index-page](src/assets/index-page.png)
+![article-page](src/assets/article-page.png)
+![training-page](src/assets/training-page.png)
+![message-dialog](src/assets/message-dialog.png)
+![comfirm-dialog](src/assets/comfirm-dialog.png)

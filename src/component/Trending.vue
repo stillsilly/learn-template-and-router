@@ -1,6 +1,6 @@
 <template>
     <div id="trending">
-        <input v-model="itemToAdd" type="text" @keyup.enter="addTrending" class="add-input"> <span class="add-btn"  @click="addTrending">添加</span>
+        <input v-model="itemToAdd" type="text" @keyup.enter="addTrending" class="add-input" title="trending-word"> <span class="add-btn"  @click="addTrending">添加</span>
         <ul class="trending-ul">
             <li  v-for="(item,index) in trendingItems">
                 <span class="sort-icon-box"><span v-show="isNotFist(item,index)" @click="upTrending(item,index)">上移</span></span>
@@ -95,7 +95,7 @@
         }
     }
 </script>
-<style>
+<style scoped>
     #trending{
         width: 300px;
         text-align: left;

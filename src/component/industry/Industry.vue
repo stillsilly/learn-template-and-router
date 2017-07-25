@@ -14,9 +14,7 @@
             }
         },
         methods:{
-            test:function () {
-                console.log(this.$route.path)
-            }
+
         },
         components:{
             Trending

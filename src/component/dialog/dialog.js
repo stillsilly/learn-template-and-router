@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import cuteDialog from './dialog.vue'
+import cuteDialog from './Dialog.vue'
 export default {
     data:function () {
       return {
